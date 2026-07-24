@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+body{
+
+    min-height:100vh;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+.hero{
+
+    width:100%;
+    max-width:850px;
+    text-align:center;
+
+}
+
+h1{
+
+    color:white;
+    font-size:40px;
+    margin-bottom:30px;
+    text-shadow:2px 2px 5px rgba(0,0,0,.3);
+
+}
+
+.carta{
+
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.carta h2{
+
+    color:#ff4d88;
+    margin-bottom:20px;
+
+}
+
+.carta p{
+
+    color:#555;
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:18px;
+
+}
+
+.amor{
+
+    color:#ff2f68;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.firma{
+
+    margin-top:20px;
+    color:#ff4d88;
+    font-size:28px;
+    font-weight:bold;
+
+}
+
+button{
+
+    margin-top:30px;
+    padding:15px 30px;
+    border:none;
+    border-radius:40px;
+    background:#ff4d88;
+    color:white;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+    background:#ff1f6d;
+
+}
+
+/* MODAL */
+
+.modal{
+
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.6);
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.contenido-modal{
+
+    width:90%;
+    max-width:500px;
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    text-align:center;
+    position:relative;
+
+}
+
+.cerrar{
+
+    position:absolute;
+    top:15px;
+    right:20px;
+    cursor:pointer;
+    color:#ff4d88;
+    font-size:25px;
+
+}
+
+.foto{
+
+    width:100%;
+    max-width:330px;
+    height:450px;
+    object-fit:cover;
+    border-radius:20px;
+    margin:20px auto;
+    display:block;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+
+}
+
+.controles{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+}
