@@ -5,10 +5,10 @@ console.log("Carta 3 meses ❤️");
 
 const fotos = [
 
-    "img/2.jpeg",
-    "img/1.jpeg",
-    "img/3.jpeg",
-    "img/4.jpeg",
+    "2.jpeg",
+    "1.jpeg",
+    "3.jpeg",
+    "4.jpeg",
     
 
 ];
